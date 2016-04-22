@@ -34,11 +34,7 @@
   4.	Floating Action Button
   5.	Recycler Views
   6.	Card Views
-7.	<a href="https://docs.google.com/presentation/d/1plers7rDw_gaJFGkH9_FEicVAzt7unUgyVwsY74sN50/edit?usp=sharing">Layouts e Views</a>
-  1.	Customização de Layouts
-  2.	Customização de Views
-  3.	Componentização
-8.	Publicação [Extra]
+7.	Publicação [Extra]
   1.	Exportação de APK
   2.	ProGuard
   3.	Google Play Store
