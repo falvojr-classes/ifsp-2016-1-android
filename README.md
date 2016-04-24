@@ -15,7 +15,7 @@
   +	Activities
   +	Activity Lifecycle
 3.	<a href="https://docs.google.com/presentation/d/1rxleTkn14Kb1_BKAhU_bDs_Oq4TktySagpYoS3wq0Ho/edit?usp=sharing">Views e List Views</a>
-  +	Manipulando Views
+  +	Views
   +	List Views
   +	Adapters
 4.	<a href="https://docs.google.com/presentation/d/1jhxxk5BdZnFWAKj7zAFfXUisVKOiaTApE-t1G1cLO7I/edit?usp=sharing">Intent e Intent Filters</a>
