@@ -1,4 +1,4 @@
-# Minicurso Android: IFSP Semana da Informática 2016
+# Minicurso Android: Semana da Informática 2016
 
 1.	<a href="https://docs.google.com/presentation/d/1FXl3AQUpDI61fDluaEu3CSy3CjPCKjeAGH_FtgWqE0w/edit?usp=sharing">Introdução</a>
   1.	O que é Android?
