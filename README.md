@@ -1,11 +1,13 @@
 # Mini-curso Android: Semana da Informática IFSP
 
-1.	<a href="https://docs.google.com/presentation/d/1BYDn1c0tYpRTrv_8pzUZf_HD8znF9SA8c16SLiQLNhU/edit?usp=sharing">Introdução</a>
+1.	<a href="https://docs.google.com/presentation/d/1FXl3AQUpDI61fDluaEu3CSy3CjPCKjeAGH_FtgWqE0w/edit?usp=sharing">Introdução</a>
   1.	O que é Android?
-  2.	Camadas de Software
-  3.	Ambiente de Desenvolvimento
-  4.	IDE
-  5.	Hello, World!
+  2.	Por que Android?
+  3.	Participação de Mercado
+  4.	Camadas de Software
+  5.	Ambiente de Desenvolvimento
+  6.	IDE
+  7.	Hello, Android!
 2.	<a href="https://docs.google.com/presentation/d/1E2pR6OjqEOmiKjFh7kV2baoI5n6J9jXZDB0l1wJr7xM/edit?usp=sharing">SDK Tools e Activities</a>
   1.	Estrutura de Projeto
   2.	SDK Manager
