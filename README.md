@@ -18,11 +18,8 @@
   +	Views
   +	List Views
   +	Adapters
-4.	<a href="https://docs.google.com/presentation/d/1jhxxk5BdZnFWAKj7zAFfXUisVKOiaTApE-t1G1cLO7I/edit?usp=sharing">Intent e Intent Filters</a>
-  +	Intent
-  +	Intent Filters
-  +	Serializable
-  +	Parcelable
+4.	<a href="https://docs.google.com/presentation/d/1jhxxk5BdZnFWAKj7zAFfXUisVKOiaTApE-t1G1cLO7I/edit?usp=sharing">Intents</a>
+  +	Intents
   +	Serializable ou Parcelable?
 5.	<a href="https://docs.google.com/presentation/d/1K70IxZp87Yb8tVzgUjliOOORby4RDsI3sJs0O3EZCYE/edit?usp=sharing">Menus e Dialogs</a>
   +	Action Bar Menu
