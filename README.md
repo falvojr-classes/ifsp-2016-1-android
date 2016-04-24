@@ -8,7 +8,7 @@
   +	Ambiente de Desenvolvimento
   +	IDE
   +	Hello, Android!
-2.	<a href="https://docs.google.com/presentation/d/1E2pR6OjqEOmiKjFh7kV2baoI5n6J9jXZDB0l1wJr7xM/edit?usp=sharing">SDK Tools e Activities</a>
+2.	<a href="https://docs.google.com/presentation/d/1PU5foPH2JKxABbmeFKPQyAinF88CiZHG_eqeS4XIKg8/edit?usp=sharing">SDK Tools e Activities</a>
   +	Estrutura de Projeto
   +	SDK Manager
   +	AVD Manager
