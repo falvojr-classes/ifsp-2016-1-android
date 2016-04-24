@@ -28,11 +28,10 @@
   +	Dialogs
 6.	<a href="https://docs.google.com/presentation/d/1vFP1eZiC914fhkm4dy46Qo--NrP12716afS03vsxVxY/edit?usp=sharing">Themes e Material Design</a>
   +	O que é Material Design?
-  +	Themes
+  +	Guidelines
   +	Floating Labels
   +	Floating Action Button
-  +	Recycler Views
-  +	Card Views
+  +	RecyclerView e	CardView
 7.	Publicação [Extra]
   +	Exportação de APK
   +	ProGuard
