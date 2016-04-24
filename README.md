@@ -14,7 +14,7 @@
   +	AVD Manager
   +	Activities
   +	Activity Lifecycle
-3.	<a href="https://docs.google.com/presentation/d/1rxleTkn14Kb1_BKAhU_bDs_Oq4TktySagpYoS3wq0Ho/edit?usp=sharing">Views e List Views</a>
+3.	<a href="https://docs.google.com/presentation/d/17yT02lLCjx6sfVBoQYZ3zwjaBySUBGlDQ1pbyUyeFdw/edit?usp=sharing">Views e List Views</a>
   +	Views
   +	List Views
   +	Adapters
