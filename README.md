@@ -14,10 +14,9 @@
   +	AVD Manager
   +	Activities
   +	Activity Lifecycle
-3.	<a href="https://docs.google.com/presentation/d/17yT02lLCjx6sfVBoQYZ3zwjaBySUBGlDQ1pbyUyeFdw/edit?usp=sharing">Views e List Views</a>
+3.	<a href="https://docs.google.com/presentation/d/17yT02lLCjx6sfVBoQYZ3zwjaBySUBGlDQ1pbyUyeFdw/edit?usp=sharing">Views</a>
   +	Views
-  +	List Views
-  +	Adapters
+  +	Manipulação de Views
 4.	<a href="https://docs.google.com/presentation/d/1dw31YQlg_YFPbDpF-RZfvI7hdsE4_Ra0ob1aVS6qJPg/edit?usp=sharing">Intents</a>
   +	Intents
   +	Serializable ou Parcelable?
