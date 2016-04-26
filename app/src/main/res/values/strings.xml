@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Minicourse Android</string>
+    <string name="txt_username">Username</string>
+    <string name="txt_password">Password</string>
+    <string name="txt_login">Login</string>
+    <string name="msg_required">Required Field</string>
+    <string name="msg_welcome">Welcome %s!</string>
+</resources>
