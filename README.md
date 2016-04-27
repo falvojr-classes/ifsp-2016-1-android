@@ -21,7 +21,7 @@
 4.	<a href="https://docs.google.com/presentation/d/1dw31YQlg_YFPbDpF-RZfvI7hdsE4_Ra0ob1aVS6qJPg/edit?usp=sharing">Intents</a>
   +	Intents
   +	Serializable ou Parcelable?
-5.	<a href="https://docs.google.com/presentation/d/1-Jrt5FJESCxsph-v-OHhtN58IKqWmoJimu5hVCgvECc/edit?usp=sharing">Menus e Dialogs</a>  (teoria)
+5.	<a href="https://docs.google.com/presentation/d/1-Jrt5FJESCxsph-v-OHhtN58IKqWmoJimu5hVCgvECc/edit?usp=sharing">Menus e Dialogs</a>  *(teoria)*
   +	Action Bar Menu
   +	Context Menu
   +	Dialogs
@@ -29,8 +29,8 @@
   +	O que é Material Design?
   +	Guidelines
   +	Floating Labels
-  +	Floating Action Button (teoria)
-  +	RecyclerView e	CardView  (teoria)
+  +	Floating Action Button *(teoria)*
+  +	RecyclerView e	CardView  *(teoria)*
 7.	Publicação (teoria)
   +	Exportação de APK
   +	ProGuard
