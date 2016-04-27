@@ -31,7 +31,7 @@
   +	Floating Labels
   +	*Floating Action Button (teoria)*
   +	*RecyclerView e	CardView (teoria)*
-7.	Publicação
+7.	[Extra] Publicação
   +	*Exportação de APK (teoria)*
   +	*ProGuard (teoria)*
   +	*Google Play Store (teoria)*
