@@ -18,12 +18,15 @@ public class ListViewActivity extends AppCompatActivity {
     public static final String KEY_USER = "MY_USER_KEY";
 
     private static final String[] PHONES = {
-        "+55 16 987654321",
-        "+55 16 997218281",
-        "+55 16 876543219",
-        "+55 16 765432198",
-        "+55 16 654321987",
-        "+55 16 543219876"
+        "+55 16 111111111",
+        "+55 16 222222222",
+        "+55 16 333333333",
+        "+55 16 444444444",
+        "+55 16 555555555",
+        "+55 16 666666666",
+        "+55 16 777777777",
+        "+55 16 888888888",
+        "+55 16 999999999"
     };
 
     private ListView mListView;
@@ -39,18 +42,17 @@ public class ListViewActivity extends AppCompatActivity {
         mAdapter = new ArrayAdapter<>(this, android.R.layout.simple_list_item_1, PHONES);
         mListView.setAdapter(mAdapter);
 
-        mListView.setOnItemLongClickListener(new AdapterView.OnItemLongClickListener() {
+        mListView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
-            public boolean onItemLongClick(AdapterView<?> parent, View view, int position, long id) {
-                // Best Practices: http://stackoverflow.com/questions/4275678/how-to-make-phone-call-using-intent-in-android
-                final Intent goToSOPhoneCall = new Intent(Intent.ACTION_CALL /* or Intent.ACTION_DIAL (no manifest permission needed) */);
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                // Link util: http://stackoverflow.com/questions/4275678/how-to-make-phone-call-using-intent-in-android
+                final Intent goToSOPhoneCall = new Intent(Intent.ACTION_CALL /* ou Intent.ACTION_DIAL (não precisa de permissão no AndroidManifest.xml) */);
                 goToSOPhoneCall.setData(Uri.parse("tel:" + PHONES[position]));
                 startActivity(goToSOPhoneCall);
-                return true;
             }
         });
 
-        final User parceledUser = getIntent().getParcelableExtra(ListViewActivity.KEY_USER);
-        Toast.makeText(getBaseContext(), getString(R.string.msg_welcome, parceledUser.getUsername()), Toast.LENGTH_LONG).show();
+        //final User parceledUser = getIntent().getParcelableExtra(ListViewActivity.KEY_USER);
+        //Toast.makeText(getBaseContext(), getString(R.string.msg_welcome) + parceledUser.getUsername(), Toast.LENGTH_LONG).show();
     }
 }

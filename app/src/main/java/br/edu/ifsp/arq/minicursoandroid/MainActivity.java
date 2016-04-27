@@ -1,6 +1,7 @@
 package br.edu.ifsp.arq.minicursoandroid;
 
 import android.content.Intent;
+import android.support.design.widget.TextInputLayout;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.text.TextUtils;
@@ -15,6 +16,8 @@ public class MainActivity extends AppCompatActivity {
 
     private EditText mUsername;
     private EditText mPassword;
+    private TextInputLayout mUsernameLayout;
+    private TextInputLayout mPasswordLayout;
     private Button mLogin;
 
     @Override
@@ -25,21 +28,27 @@ public class MainActivity extends AppCompatActivity {
         mUsername = (EditText) findViewById(R.id.editTextUsername);
         mPassword = (EditText) findViewById(R.id.editTextPassword);
 
+        mUsernameLayout = (TextInputLayout) findViewById(R.id.editTextUsernameLayout);
+        mPasswordLayout = (TextInputLayout) findViewById(R.id.editTextPasswordLayout);
+
         mLogin = (Button) findViewById(R.id.buttonLogin);
         mLogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                boolean isValid = true;
                 if (TextUtils.isEmpty(mUsername.getText())) {
-                    mUsername.setError(getString(R.string.msg_required));
+                    mUsernameLayout.setError(getString(R.string.msg_required));
+                    isValid = false;
                 } else {
-                    mUsername.setError(null);
+                    mUsernameLayout.setErrorEnabled(false);
                 }
                 if (TextUtils.isEmpty(mPassword.getText())) {
-                    mPassword.setError(getString(R.string.msg_required));
+                    mPasswordLayout.setError(getString(R.string.msg_required));
+                    isValid = false;
                 } else {
-                    mPassword.setError(null);
+                    mPasswordLayout.setErrorEnabled(false);
                 }
-                if (TextUtils.isEmpty(mUsername.getError()) && TextUtils.isEmpty(mPassword.getError())) {
+                if (isValid) {
                     final User user = new User();
                     user.setUsername(mUsername.getText().toString());
 
